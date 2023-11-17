@@ -6,7 +6,7 @@ require_once('../Database/database.php');
 
 class ProfileModificationView
 {
-    private $database;
+    private $databas;
     private $user;
 
     public function __construct($database, $user)
