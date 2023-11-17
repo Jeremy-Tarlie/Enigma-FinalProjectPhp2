@@ -1,0 +1,163 @@
+body {
+    --BackgroundMenu: rgb(1, 9, 122);
+    --backgroundBtnRecherche: rgba(143, 143, 143, 0.7);
+    --colorLienNav: white;
+    --backgroundLienNav: rgba(143, 143, 143, 0.7);
+    --colorRecherche: white;
+}
+
+@media screen and (min-width:1024px) {
+    nav {
+        background-color: var(--BackgroundMenu);
+        display: flex;
+        padding: 9px;
+        position: relative;
+        top: -10px;
+        left: -10px;
+        width: 100%;
+    }
+    .lienNav {
+        text-decoration: none;
+        margin: auto 2%;
+        color: var(--colorLienNav);
+        background-color: var(--backgroundLienNav);
+        padding: 0 10px;
+    }
+    .recherche {
+        display: flex;
+        margin-left: auto;
+    }
+    .barreRecherche {
+        border-radius: 20%;
+        margin: auto 10px;
+    }
+    .BtnRecherche {
+        background-color: var(--backgroundBtnRecherche);
+        border-radius: 10%;
+        border-color: var(--backgroundBtnRecherche);
+        color: var(--colorRecherche);
+    }
+    .normal {
+        width: 100%;
+        height: 20px;
+    }
+    .fas {
+        display: none;
+    }
+}
+
+@media (max-width:1023px) and (min-width:801px) {
+    nav {
+        background-color: var(--BackgroundMenu);
+        display: block;
+        padding: 9px;
+        position: relative;
+        top: -10px;
+        left: -10px;
+        width: 100%;
+    }
+    .lienNav {
+        font-size: 20px;
+        width: 50%;
+        text-decoration: none;
+        margin: 10px 2%;
+        color: var(--colorLienNav);
+        background-color: var(--backgroundLienNav);
+        padding: 0 10px;
+        display: none;
+    }
+    .recherche {
+        width: 50%;
+        display: none;
+    }
+    .barreRecherche {
+        border-radius: 10%;
+        margin: auto 10px;
+        width: 90%;
+        font-size: 20px;
+    }
+    .BtnRecherche {
+        background-color: var(--backgroundBtnRecherche);
+        border-radius: 10%;
+        border-color: var(--backgroundBtnRecherche);
+        color: var(--colorRecherche);
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .normal {
+        width: 100%;
+        height: 20px;
+    }
+    .burger {
+        display: block;
+        color: var(--colorMenuBurger);
+        font-size: 200%;
+    }
+    .montre {
+        display: block;
+    }
+}
+
+@media (max-width:800px) {
+    body {
+        --BackgroundMenu: rgb(1, 9, 122);
+        --backgroundBtnRecherche: rgba(143, 143, 143, 0.7);
+        --colorLienNav: white;
+        --backgroundLienNav: rgba(143, 143, 143, 0.7);
+        --colorRecherche: white;
+        --colorMenuBurger: white;
+    }
+    nav {
+        background-color: var(--BackgroundMenu);
+        display: block;
+        padding: 9px;
+        position: relative;
+        top: -10px;
+        left: -10px;
+        width: 100%;
+    }
+    .lienNav {
+        font-size: 25px;
+        width: 50%;
+        text-decoration: none;
+        margin: 10px 2%;
+        color: var(--colorLienNav);
+        background-color: var(--backgroundLienNav);
+        padding: 0 10px;
+        display: none;
+    }
+    .recherche {
+        width: 50%;
+        display: none;
+    }
+    .barreRecherche {
+        border-radius: 10%;
+        margin: auto 10px;
+        width: 90%;
+        font-size: 25px;
+    }
+    .BtnRecherche {
+        background-color: var(--backgroundBtnRecherche);
+        border-radius: 10%;
+        border-color: var(--backgroundBtnRecherche);
+        color: var(--colorRecherche);
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    .normal {
+        width: 100%;
+        height: 20px;
+    }
+    .burger {
+        display: block;
+        color: var(--colorMenuBurger);
+        font-size: 200%;
+    }
+    .montre {
+        display: block;
+    }
+}
